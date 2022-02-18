@@ -53,8 +53,7 @@ ul {
 .nav_block {
     border-radius: 6%;
     font-size: 120%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 4%;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 2%;
@@ -258,19 +257,17 @@ ul {
 
 /* styling for side banners */
 .banner {
-    height: 120%;
-    width: 16%;
-    margin-top: -.6%;
+    top: 0%;
     position: fixed;
+    height: 100%;
+    width: 14%;
     z-index: -1;
     background-image: url("/side_banner.png");
     background-repeat: repeat-y;
-    overflow-y: visible;
 }
 
 .banner-left {
-    left: -1.7%;
-    float: left;
+    left: 0%;
     background-image: -webkit-linear-gradient(left,
             rgba(0, 0, 0, 0.09) 0%,
             rgba(0, 0, 0, 0.131) 20%,
@@ -280,8 +277,7 @@ ul {
 }
 
 .banner-right {
-    left: 87%;
-    float: right;
+    right: 0%;
     background-image: -webkit-linear-gradient(right,
             rgba(0, 0, 0, 0.09) 0%,
             rgba(0, 0, 0, 0.131) 20%,
